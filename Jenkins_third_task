@@ -6,9 +6,9 @@ pipeline {
 
     stages {
 
-        stage('Node 1 Work') {
+        stage('NODE1 Work') {
 
-            agent { label 'node1' }
+            agent { label 'NODE1' }
 
             steps {
 
@@ -16,7 +16,7 @@ pipeline {
 
                     for (int i = 1; i <= 5; i++) {
 
-                        echo "Stage ${i} is running on Node 1"
+                        echo "Stage ${i} is running on NODE1"
 
                     }
 
@@ -26,9 +26,9 @@ pipeline {
 
         }
 
-        stage('Node 2 Work') {
+        stage('NODE2 Work') {
 
-            agent { label 'node2' }
+            agent { label 'NODE2' }
 
             steps {
 
@@ -36,7 +36,7 @@ pipeline {
 
                     for (int i = 6; i <= 10; i++) {
 
-                        echo "Stage ${i} is running on Node 2"
+                        echo "Stage ${i} is running on NODE2"
 
                     }
 
