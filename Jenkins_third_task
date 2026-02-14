@@ -1,5 +1,4 @@
-// Create a jenkins pipeline job with multiple stages with different slave on each stage
-	a) First 5 stages should run on NODE1 and next 5 stages should run on NODE2
+// Create a jenkins pipeline job with multiple stages with different slave on each stage-First 5 stages should run on NODE1 and next 5 stages should run on NODE2
 
 pipeline {
 
