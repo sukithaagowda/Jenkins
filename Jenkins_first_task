@@ -1,4 +1,4 @@
->>> Create jenkins pipeline job to find master/slave server details.
+# Create jenkins pipeline job to find master/slave server details.
 
 
 pipeline {
